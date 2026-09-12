@@ -65,7 +65,8 @@ Load manipulation
 - Automatically block 7500 packets when it detects a swap between two specific guns.
 - This should only trigger when switching between the two weapons which you specify.
 - A click while blocking will stop blocking so that when you shoot, it will immediately resync without any other inputs.
-- To find the trigger length you need to download WIRESHARK and apply the filter TCP.SRCPORT == 7500 to your active network interface. With WIRESHARK open, switch between the two guns of your choice (likely Lorentz Driver and Duality) somewhat frequently, about twice a second is nice. When swapping guns there should be a burst of 3 to 4 packets on WIRESHARK one of the packets Len (far right) will probably be 87, one of the other ones will probably be 43, one around 150, and the last about 190 - 230. You’ll use the biggest one. For me it’s 198, I’ve seen as high as 230 and as low as 170. Put your packet length in the trigger length text box and then enable the module, turn it on, and try switching guns and you’ll see how it works.
+- To find the trigger length you need to download WIRESHARK and apply the filter TCP.SRCPORT == 7500 to your active network interface. With WIRESHARK open, switch between the two guns of your choice (likely Lorentz Driver and Duality) somewhat frequently, about twice a second is nice. When swapping guns there should be a burst of 3 to 4 packets on WIRESHARK one of the packets Len (far right) will probably be 87, one of the other ones will probably be 43, one around 150, and the last about 190 - 230. You’ll use the biggest one. For me it’s 198, I’ve seen as high as 230 and as low as 170.
+- Put your packet length in the trigger length text box and then enable the module, turn it on, and try switching guns and you’ll see how it works.
 
 UL Slow Damage Module.
 -
