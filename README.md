@@ -75,12 +75,12 @@ UL Slow Damage Module.
 
 3074 2
 -
-- Added for compatibility with K3's macros.
+- Added for compatibility with other macros.
 - I suggest using different binds for this module and leaving buffering off.
 
 27K 2
 -
-- Added for compatibility with K3's macros.
+- Added for compatibility with other macros.
 - I suggest using different binds for this module and leaving buffering off.
 
 Dialogue Skip
