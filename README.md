@@ -9,8 +9,8 @@
 
 27K
 -
--Player connection port.
--stop player position updates.
+- Player connection port.
+- stop player position updates.
 -Prevent matchmaking players.
 -Keep revive tokens.
 
