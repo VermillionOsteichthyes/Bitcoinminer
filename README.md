@@ -1,20 +1,20 @@
 # Bitcoinminer
 
-- 3074
-The everything port.
-Blocks world updates, damage and buffs mostly.
-Flush Buffer will instantly re-sync you (without unticking).
-you can use flush buffer instead unticking to update your world.
+3074
+-The everything port.
+-Blocks world updates, damage and buffs mostly.
+-Flush Buffer will instantly re-sync you (without unticking).
+-you can use flush buffer instead unticking to update your world.
 
-- 27K
-Player connection port.
-stop player position updates.
-Prevent matchmaking players.
-Keep revive tokens.
+27K
+-Player connection port.
+-stop player position updates.
+-Prevent matchmaking players.
+-Keep revive tokens.
 
-- 7500
-API updates and items switches.
-Auto disable allows you to set a timer for which this module will automatically disable itself after the timer is up unless you’ve unticked already.
+7500
+-API updates and items switches.
+-Auto disable allows you to set a timer for which this module will automatically disable itself after the timer is up unless you’ve unticked already.
 
 - 30K
 Blocks joining, objectives, world connection.
