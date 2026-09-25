@@ -62,15 +62,15 @@ Load manipulation
 
 75 Damage Module. 
 -
-- Automatically block 7500 packets when it detects a swap between two specific guns.
-- This should only trigger when switching between the two weapons which you specify.
+- Automatically block 7500 packets when it detects a swap between items.
+- This should only trigger when the module is enabled.
 - A click while blocking will stop blocking so that when you shoot, it will immediately resync without any other inputs.
-- To find the trigger length you need to download WIRESHARK and apply the filter TCP.SRCPORT == 7500 to your active network interface. With WIRESHARK open, switch between the two guns of your choice (likely Lorentz Driver and Duality) somewhat frequently, about twice a second is nice. When swapping guns there should be a burst of 3 to 4 packets on WIRESHARK one of the packets Len (far right) will probably be 87, one of the other ones will probably be 43, one around 150, and the last about 190 - 230. You’ll use the biggest one. For me it’s 198, I’ve seen as high as 230 and as low as 170.
-- Put your packet length in the trigger length text box and then enable the module, turn it on, and try switching guns and you’ll see how it works.
+- 3074 ul optionally blocks outbounds 3074 traffic for a moment while unblocking 7500 traffic
+- 27k ul does the same with outbounds 27k traffic 
 
 UL Slow Damage Module.
 -
-- This also has a trigger based on when you switch between two specific weapons. Find the trigger length the same way.
+- This works similarly to the 75 Damage Module in that it also triggers based on swapping items.
 - When you turn this on, it will tick UL slow. When you switch between the designated weapons it will wait for the delay and then it will flush buffer.
 
 3074 2
@@ -160,6 +160,11 @@ Backgrounds
 -
 - In the background folder you can add images.
 - If their images present in this folder on startup, the program will choose a random one to use as the background for the app.
+
+Colours
+-
+- In the service window there are text boxes to enter hex codes to set the colours of the various icons and text across the program.
+- 3, 6, and 8 digit hex codes are all acceptable.  
 
 AHK
 -
