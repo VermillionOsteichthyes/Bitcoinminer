@@ -1,5 +1,10 @@
 # Bitcoinminer
 
+Carrying Configuration Settings Between Versions
+-
+- Copy "VermillionOsteichthyes.cfg" from your old version and place it in the folder of the new version next to the .exe.
+- If prompted that there is already a file with the same name, choose copy and replace.
+
 3074
 -
 - The everything port.
@@ -55,7 +60,7 @@ Weasel
 -
 - Forces a new 7500 connection.
 
-Load manipulation
+Load Manipulation
 -
 - Blocks inbounds 30K traffic for a set static amount of time before an instance starts. This allows you to get a better load .
 - 23 seconds of blocking should guarantee a perfect load.
