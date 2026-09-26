@@ -170,9 +170,5 @@ AHK
 -
 - Auto hotkey scripts in the AHK folder are accessible through the AHK window in the program.
 
-README
--
-- This folder and the file inside will automatically regenerate on app start up if it is edited or deleted.
-
 NPCAP install: https://npcap.com/dist/npcap-1.88.exe
 Wireshark install: https://www.wireshark.org/#download
